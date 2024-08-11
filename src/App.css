@@ -1,0 +1,330 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/*********************** Footer ************************/
+.footer-container {
+  font-family: "Inter", sans-serif;
+  max-width: 1300px;
+  
+  margin: auto;
+  /* padding: 0 20px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+
+.right-col{
+  padding-bottom: 15px;
+  
+  
+  
+}
+.logo {
+  width: 180px;
+}
+
+.social-media {
+  margin:2% 0;
+  
+}
+
+.social-media a {
+  color: #001a21;
+  margin: 50px;
+  
+  
+  text-decoration: none;
+  transition: 0.3s linear;
+  
+}
+
+.social-media a:hover {
+  color: cyan;
+}
+
+.right-col h1 {
+  font-size: 26px;
+}
+
+.border {
+  width: 100px;
+  height: 4px;
+  background: orange;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+
+.right-col input {
+  flex: 1;
+  padding: 18px 40px;
+  font-size: 16px;
+  color: #293043;
+  background: #ddd;
+  border: none;
+  font-weight: 700;
+  outline: none;
+  border-radius: 30px;
+  min-width: 260px;
+  margin-top: 5px;
+}
+
+
+
+.right-col button {
+  padding: 18px 40px;
+  font-size: 16px;
+  color: #293043;
+  background: orange;
+  border: none;
+  font-weight: 700;
+  outline: none;
+  border-radius: 30px;
+  margin-left: 20px;
+  transition: opacity 0.3s linear;
+}
+
+
+
+.right-col button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+footer {
+  
+  /* padding: 90px 0; */
+ 
+}
+
+
+
+
+/*********************** Events ************************/
+
+
+/* This is the Compiler  */
+
+.Compiler {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+
+.Comp2 {
+  display: flex;
+  margin: 5% 5% 5%;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.CompilerContents {
+  position: relative;
+  list-style: none;
+  font-family: "Inter", sans-serif;
+  /* background: darkblue; */
+  /* padding: 20px 20px 20px 20px; */
+  color: tan;
+  height: 800px;
+  width: 600px;
+  justify-content: flex-start;
+  margin-right: 50px;
+}
+
+.CompetitionBox {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 600px;
+  height: 800px;
+  z-index: 2;
+  /* margin-right: 10%; */
+  background: linear-gradient(235deg, #fa7d09, #060c21, #00bcd4);
+  /* background: red; */
+}
+
+.CompetitionBox:before {
+  content: "";
+  position: absolute;
+
+  top: 3px;
+  left: 3px;
+  right: 3px;
+  bottom: 3px;
+  z-index: 1;
+  background: black;
+  /* border-radius: 5px; */
+}
+
+.CompetitionBox:after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  z-index: 0;
+  background: linear-gradient(235deg, red, #060c21, lime);
+  filter: blur(40px);
+  animation: backanime2 5s linear infinite;
+}
+
+
+
+.competitions-title {
+  color: tan;
+}
+.competitions-text {
+  color: tan;
+  width: 100%;
+  padding: 0;
+  height: 100%;
+  background-color: black;
+  text-align: left;
+  font-size: 24px;
+  font-weight: 1000;
+  font: "Inter", sans-serif;
+  /* line-height: 1.9; */
+}
+
+.Competitions {
+  position: relative;
+}
+
+.theeditor {
+  border-style: solid;
+  border-color: tan;
+  border-width: 1px;
+  padding-left: 225px;
+}
+.compiler-functions {
+  display: flex;
+  list-style: none;
+  position: relative;
+  margin-left: 0;
+  margin-right: 10%;
+  justify-content: center;
+
+  /* align-items: flex-start; */
+}
+
+.compiler-functions li {
+  margin: 20px 20px 20px 20px;
+}
+
+.compiler-functions select {
+  color: tan;
+  background: black;
+  border-radius: 5px;
+  border-style: none;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.compiler-submit-btn {
+  position: relative;
+  /* margin-right: 5%; */
+  border: 1px solid tan;
+  background-color: black;
+  padding: 20px 30px;
+  font-size: 20px;
+  font-weight: 1000;
+  font-family: "montserrat";
+  cursor: pointer;
+  transition: 0.8s;
+  color: tan;
+  position: relative;
+  overflow: hidden;
+  margin-top: 25px;
+  margin-right: 30px;
+  margin-left: 10px;
+}
+.compiler-submit-btn:hover {
+  color: black;
+  background-color: cyan;
+}
+
+.compiler-submit-btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  z-index: -1;
+  background: orange;
+  transition: 0.8s;
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
+}
+
+.compiler-submit-btn:hover::before {
+  height: 180%;
+}
+
+.compiler-output {
+  list-style: none;
+  margin-left: -40px;
+  padding-right: 40px;
+
+  /* padding-bottom: 20px; */
+}
+.output-title {
+  color: tan;
+  font-size: 19px;
+  margin-bottom: 20px;
+  /* padding-left:20px; */
+}
+.output-data {
+  list-style: none;
+  background: black;
+  font-weight: 700;
+  padding-left: 10px;
+
+  margin: auto;
+
+  /* font-family: "montserrat"; */
+  font-size: 16px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: tan;
+  border-width: 1px;
+  width: auto;
+  height: auto;
+}
+
+.output {
+  color: cyan;
+}
+.memory {
+  color: cyan;
+}
+
+.cpuTime {
+  color: cyan;
+}
+
+/* new */
+
+.instruction{
+
+  color: white;
+  font-size: 20px;
+  font-weight: 1000;
+  font-family: "montserrat";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; /* Adjust the padding as needed */
+  text-align: center;
+}

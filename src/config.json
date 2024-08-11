@@ -1,0 +1,20 @@
+{
+  "cognito": {
+    "REGION": "us-east-2",
+    "USER_POOL_ID": "us-east-2_j0kTlqloy",
+    "APP_CLIENT_ID": "5iicofgvpve2fug05nan6vrjsr"
+  },
+  "api": {
+    "invokeUrl": "https://94utenc3vg.execute-api.us-east-2.amazonaws.com/dev",
+    "storeApiUrl": "https://1zj2eqw37j.execute-api.us-east-2.amazonaws.com/dev"
+  },
+  "email": {
+    "CONTACT_US_TEMPLATE_ID": "template_OShN3J1V",
+    "EXEC_APP_TEMPLATE_ID": "template_OShN3J1V_clone",
+    "CONTACT_US_SERVICE_ID": "outlook",
+    "EMAILJS_USER_ID": "user_iDdXXvYzh0EjXmbR3n9Pr"
+  },
+  "newsletter": {
+    "MAILCHIMP_URL": "https://outlook.us17.list-manage.com/subscribe/post?u=2c6734bb16745cfc30c17cebe&amp;id=479a8ea202"
+  }
+}
