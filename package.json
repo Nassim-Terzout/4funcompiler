@@ -1,8 +1,9 @@
 {
-  "name": "macfintech",
+  "name": "4funcompiler",
   "version": "0.1.0",
   "private": true,
   "proxy": "https://api.jdoodle.com/v1/",
+  "homepage": "https://nassim-terzout.github.io/4funcompiler/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
