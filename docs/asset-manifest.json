@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.a371cb50.css",
-    "main.js": "/static/js/main.e35cb2f3.js",
-    "static/media/gurukid.png": "/static/media/gurukid.447cfcc7fb8726d7df43.png",
-    "static/media/PhoneXgood2.png": "/static/media/PhoneXgood2.5844a0afde41b8b42f0d.png",
-    "static/media/ScreenXgood.png": "/static/media/ScreenXgood.c6d97ee9bdb458ddadd4.png",
-    "index.html": "/index.html",
-    "main.a371cb50.css.map": "/static/css/main.a371cb50.css.map",
-    "main.e35cb2f3.js.map": "/static/js/main.e35cb2f3.js.map"
+    "main.css": "/4funcompiler/static/css/main.a371cb50.css",
+    "main.js": "/4funcompiler/static/js/main.6b603ddd.js",
+    "static/media/gurukid.png": "/4funcompiler/static/media/gurukid.447cfcc7fb8726d7df43.png",
+    "static/media/PhoneXgood2.png": "/4funcompiler/static/media/PhoneXgood2.5844a0afde41b8b42f0d.png",
+    "static/media/ScreenXgood.png": "/4funcompiler/static/media/ScreenXgood.c6d97ee9bdb458ddadd4.png",
+    "index.html": "/4funcompiler/index.html",
+    "main.a371cb50.css.map": "/4funcompiler/static/css/main.a371cb50.css.map",
+    "main.6b603ddd.js.map": "/4funcompiler/static/js/main.6b603ddd.js.map"
   },
   "entrypoints": [
     "static/css/main.a371cb50.css",
-    "static/js/main.e35cb2f3.js"
+    "static/js/main.6b603ddd.js"
   ]
 }
